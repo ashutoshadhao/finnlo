@@ -104,13 +104,7 @@ bun run db:generate
 bun run db:migrate
 ```
 
-### 5. (Optional) Seed the database
-
-```bash
-bun run db:seed
-```
-
-### 6. Start the development server
+### 5. Start the development server
 
 ```bash
 bun dev
@@ -132,7 +126,6 @@ Open [http://localhost:3000](http://localhost:3000) in your browser.
 | `bun lint` | Run ESLint |
 | `bun run db:generate` | Generate Drizzle ORM migrations |
 | `bun run db:migrate` | Apply database migrations |
-| `bun run db:seed` | Seed the database with sample data |
 | `bun run db:studio` | Open Drizzle Studio (DB GUI) |
 
 ---
